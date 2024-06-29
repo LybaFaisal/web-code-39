@@ -43,3 +43,24 @@ else
 {
     console.log("Sorry, You are Failed");
 }
+
+//Nested-If
+
+//To check the numbers are positive or negative
+
+let a = 5;
+let b = -1;
+
+if (a>0){
+    if (b>0)
+        {
+            console.log("Both numbers are positive");
+        }
+    else{
+        console.log("Only Number 1 is positive");
+    }    
+}
+else{
+    console.log("Both are negative numbers");
+}
+
