@@ -64,3 +64,41 @@ else{
     console.log("Both are negative numbers");
 }
 
+//Switch Statements
+
+//Converting Multiple If-Else to Switch Statements
+
+let std_score = 80;
+
+switch (true){
+    case (std_score >= 90):
+    {
+    console.log("You are passed with A+ Grade");
+    break;
+    }
+
+    case (std_score >= 80):
+    {
+    console.log("You are passed with A Grade");
+    break;
+    }
+
+    case (std_score >= 70):
+    {
+    console.log("You are passed with B Grade");
+    break;
+    }
+
+    case (std_score >= 60):
+    {
+    console.log("You are passed with C Grade");
+    break;
+    }
+
+    default:
+    {
+    console.log("Failed");
+    break;
+    }
+}
+
