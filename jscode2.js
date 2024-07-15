@@ -102,3 +102,23 @@ switch (true){
     }
 }
 
+
+//Nested-if
+
+let x = -2;
+let y = 4;
+
+if(y>=0)
+{
+    if(x>=0)
+    {
+        console.log("both x and y are positive");
+    }
+    else{
+        console.log("x is negative , but y is positive");
+    }
+}
+else{
+    console.log("y is negative");
+}
+
