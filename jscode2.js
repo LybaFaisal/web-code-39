@@ -149,7 +149,17 @@ for ( let b = 1 ; b <= 10 ; b++)
 //example # 1
 //printing numbers from 1 to 10
 
+console.log("The Numbers from 1 to 10 are=");
 for (let n = 1 ; n<=10 ; n++)
 {
     console.log(n);
+}
+
+//example # 2
+//printing even numbers from 1 - 20
+
+console.log("The Even Numbers from 1 to 20 are=");
+for (let m = 2 ; m<=20 ; m+=2)
+{
+    console.log(m);
 }
