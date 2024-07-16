@@ -122,3 +122,14 @@ else{
     console.log("y is negative");
 }
 
+
+
+//Table with For Loop:
+
+for(let a=1; a<=10; a++){
+    document.write("16 x "+a+" = "+a*16+ "<br>");
+}
+
+
+// 2 x 1 = 2
+// 2 x 2 = 4
