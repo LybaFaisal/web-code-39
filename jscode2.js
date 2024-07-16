@@ -187,3 +187,12 @@ for ( let i = 0 ; i<=str.length ; i++)
 {
     console.log(str[i]);
 }
+
+//example # 5
+//Print numbers from 10 to 1 (reverse order)
+
+console.log("Numbers in reverse order are:");
+for (let r = 10 ; r>=1 ; r--)
+{
+    console.log(r);
+}
