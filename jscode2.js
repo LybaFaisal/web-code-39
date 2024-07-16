@@ -141,3 +141,15 @@ for ( let b = 1 ; b <= 10 ; b++)
 {
     console.log("19 x " + b + " = " + b * 19);
 }
+
+//LOOPS PRACTICE
+
+//see what what we can do with for loop
+
+//example # 1
+//printing numbers from 1 to 10
+
+for (let n = 1 ; n<=10 ; n++)
+{
+    console.log(n);
+}
