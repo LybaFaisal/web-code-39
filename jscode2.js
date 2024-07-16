@@ -163,3 +163,17 @@ for (let m = 2 ; m<=20 ; m+=2)
 {
     console.log(m);
 }
+
+//example # 3
+//sum of numbers 1 to 5
+
+console.log("Sum of Numbers 1 to 5 are:");
+let sum = 0;
+for (let s = 1 ; s<=5 ; s++)
+{
+    sum += s;
+}
+
+console.log(`Sum = ${sum}`); //Through backticks
+console.log('Sum =' , sum);  //Through comma
+console.log("Sum = " + sum); //Through +
