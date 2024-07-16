@@ -133,3 +133,11 @@ for(let a=1; a<=10; a++){
 
 // 2 x 1 = 2
 // 2 x 2 = 4
+
+
+//Table with for loop
+
+for ( let b = 1 ; b <= 10 ; b++)
+{
+    console.log("19 x " + b + " = " + b * 19);
+}
