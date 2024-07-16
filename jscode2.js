@@ -177,3 +177,13 @@ for (let s = 1 ; s<=5 ; s++)
 console.log(`Sum = ${sum}`); //Through backticks
 console.log('Sum =' , sum);  //Through comma
 console.log("Sum = " + sum); //Through +
+
+//example # 4
+//Print characters of a string
+
+console.log("The characters in the string are:");
+let str = 'Hey I am Lyba';
+for ( let i = 0 ; i<=str.length ; i++)
+{
+    console.log(str[i]);
+}
