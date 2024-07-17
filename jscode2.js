@@ -268,3 +268,16 @@ for (let even = 1 ; even <= 20 ; even++)
     }
 }
 console.log(`Sum of even numbers from 1 - 20 is: ${sum_of_even}`);
+
+//Print the first 10 powers of 2
+
+//output ->  
+//2 ^ 1 = 2  {2-> base 1-> exponent}
+//2 ^ 2 = 4  {2-> base 2-> exponent}
+//2 ^ 3 = 8  {2-> base 3-> exponent}
+
+for ( let power = 1 ; power <= 10 ; power++)
+{
+    console.log(`2 ^ ${power} = ${Math.pow(2 , power)}`);
+    //Function Math.pow
+}
