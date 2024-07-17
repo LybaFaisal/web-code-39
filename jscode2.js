@@ -255,3 +255,16 @@ for (let t = 1; t <= 5; t++) {
     stars += '*';
     console.log(stars);
 } 
+
+//Calculate the sum of all even numbers from 1 to 20
+
+let sum_of_even = 0;
+
+for (let even = 1 ; even <= 20 ; even++)
+{
+    if (even % 2 == 0)
+    {
+        sum_of_even += even;
+    }
+}
+console.log(`Sum of even numbers from 1 - 20 is: ${sum_of_even}`);
