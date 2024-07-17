@@ -225,3 +225,19 @@ for ( let c = 1 ; c<=10 ; c++)
 {
     console.log(`${3 * c}`);
 }
+
+//example # 9
+//Print numbers from 1 to 10, skipping multiples of 3
+
+//here we'll use continue for skipping the multiples of 3
+
+console.log("Numbers from 1 to 10, skipping multiples of 3 are :");
+
+for ( let p = 1 ; p<=10 ; p++)
+{
+    if ( p % 3 == 0)
+    {
+        continue;
+    }
+    console.log(p);
+}
