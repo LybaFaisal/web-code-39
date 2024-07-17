@@ -281,3 +281,11 @@ for (let power = 1; power <= 10; power++) {
     console.log(`2 ^ ${power} = ${Math.pow(2, power)}`);
     //Function Math.pow
 }
+
+//example # 15
+//Printing all letters from A - Z
+
+for (let l = 65 ; l <= 90 ; l++)   //65 is ASCII code for A & 90 ->Z
+{
+    console.log(String.fromCharCode(l));
+}
