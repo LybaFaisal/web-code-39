@@ -205,3 +205,14 @@ for (let t = 1 ; t<=10 ; t++)
 {
     console.log(`2 x ${t} = ${2*t}`); //2 x 1 = 2
 }
+
+//example # 7
+//Calculate the factorial of 5
+
+console.log("The factorial of 5 is:");
+let factorial = 1;
+for ( let f = 1 ; f<=5 ; f++)
+{
+    factorial *= f;    // (*=) - Factorial
+    console.log(factorial);
+}
