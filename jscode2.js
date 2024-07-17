@@ -247,6 +247,7 @@ for (let odd = 1; odd <= 20; odd++) {
     console.log(odd);
 }
 
+//example # 12
 //Print a pattern of stars (triangle)
 
 console.log("The pattern for stars are in triangle as:");
@@ -254,21 +255,21 @@ let stars = '';
 for (let t = 1; t <= 5; t++) {
     stars += '*';
     console.log(stars);
-} 
+}
 
+//example # 13
 //Calculate the sum of all even numbers from 1 to 20
 
 let sum_of_even = 0;
 
-for (let even = 1 ; even <= 20 ; even++)
-{
-    if (even % 2 == 0)
-    {
+for (let even = 1; even <= 20; even++) {
+    if (even % 2 == 0) {
         sum_of_even += even;
     }
 }
 console.log(`Sum of even numbers from 1 - 20 is: ${sum_of_even}`);
 
+//example # 14
 //Print the first 10 powers of 2
 
 //output ->  
@@ -276,8 +277,7 @@ console.log(`Sum of even numbers from 1 - 20 is: ${sum_of_even}`);
 //2 ^ 2 = 4  {2-> base 2-> exponent}
 //2 ^ 3 = 8  {2-> base 3-> exponent}
 
-for ( let power = 1 ; power <= 10 ; power++)
-{
-    console.log(`2 ^ ${power} = ${Math.pow(2 , power)}`);
+for (let power = 1; power <= 10; power++) {
+    console.log(`2 ^ ${power} = ${Math.pow(2, power)}`);
     //Function Math.pow
 }
