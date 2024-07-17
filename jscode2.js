@@ -241,3 +241,12 @@ for ( let p = 1 ; p<=10 ; p++)
     }
     console.log(p);
 }
+
+//example # 10
+//Print the squares of numbers from 1 to 5
+
+console.log("The Squares from numbers 1 to 5 are:");
+for ( let sq = 1 ; sq<=5 ; sq++ )
+{
+    console.log(`The Square of ${sq} is: ${sq*sq}`);
+}
