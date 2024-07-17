@@ -11,10 +11,9 @@ box = "Lyba";
 
 
 let age = 18;
-if (age >= 18)
-    {
-        console.log("You are an adult");
-    }
+if (age >= 18) {
+    console.log("You are an adult");
+}
 
 
 //2nd example
@@ -23,24 +22,19 @@ if (age >= 18)
 let score = 30;
 
 
-if (score >= 90)
-    {
-        console.log("You are passed with A+ Grade");
-    }
-else if (score >= 80)
-    {
-        console.log("You are passed with A Grade");
-    }
-else if (score >= 70)
-    {
-        console.log("You are passed with B Grade");
-    }
-else if (score >= 60)
-    {
-        console.log("You are passed with C Grade");
-    }    
-else
-{
+if (score >= 90) {
+    console.log("You are passed with A+ Grade");
+}
+else if (score >= 80) {
+    console.log("You are passed with A Grade");
+}
+else if (score >= 70) {
+    console.log("You are passed with B Grade");
+}
+else if (score >= 60) {
+    console.log("You are passed with C Grade");
+}
+else {
     console.log("Sorry, You are Failed");
 }
 
@@ -51,16 +45,15 @@ else
 let a = 5;
 let b = -1;
 
-if (a>0){
-    if (b>0)
-        {
-            console.log("Both numbers are positive");
-        }
-    else{
+if (a > 0) {
+    if (b > 0) {
+        console.log("Both numbers are positive");
+    }
+    else {
         console.log("Only Number 1 is positive");
-    }    
+    }
 }
-else{
+else {
     console.log("Both are negative numbers");
 }
 
@@ -70,36 +63,36 @@ else{
 
 let std_score = 80;
 
-switch (true){
+switch (true) {
     case (std_score >= 90):
-    {
-    console.log("You are passed with A+ Grade");
-    break;
-    }
+        {
+            console.log("You are passed with A+ Grade");
+            break;
+        }
 
     case (std_score >= 80):
-    {
-    console.log("You are passed with A Grade");
-    break;
-    }
+        {
+            console.log("You are passed with A Grade");
+            break;
+        }
 
     case (std_score >= 70):
-    {
-    console.log("You are passed with B Grade");
-    break;
-    }
+        {
+            console.log("You are passed with B Grade");
+            break;
+        }
 
     case (std_score >= 60):
-    {
-    console.log("You are passed with C Grade");
-    break;
-    }
+        {
+            console.log("You are passed with C Grade");
+            break;
+        }
 
     default:
-    {
-    console.log("Failed");
-    break;
-    }
+        {
+            console.log("Failed");
+            break;
+        }
 }
 
 
@@ -108,17 +101,15 @@ switch (true){
 let x = -2;
 let y = 4;
 
-if(y>=0)
-{
-    if(x>=0)
-    {
+if (y >= 0) {
+    if (x >= 0) {
         console.log("both x and y are positive");
     }
-    else{
+    else {
         console.log("x is negative , but y is positive");
     }
 }
-else{
+else {
     console.log("y is negative");
 }
 
@@ -126,8 +117,8 @@ else{
 
 //Table with For Loop:
 
-for(let a=1; a<=10; a++){
-    document.write("16 x "+a+" = "+a*16+ "<br>");
+for (let a = 1; a <= 10; a++) {
+    document.write("16 x " + a + " = " + a * 16 + "<br>");
 }
 
 
@@ -137,8 +128,7 @@ for(let a=1; a<=10; a++){
 
 //Table with for loop
 
-for ( let b = 1 ; b <= 10 ; b++)
-{
+for (let b = 1; b <= 10; b++) {
     console.log("19 x " + b + " = " + b * 19);
 }
 
@@ -150,8 +140,7 @@ for ( let b = 1 ; b <= 10 ; b++)
 //printing numbers from 1 to 10
 
 console.log("The Numbers from 1 to 10 are=");
-for (let n = 1 ; n<=10 ; n++)
-{
+for (let n = 1; n <= 10; n++) {
     console.log(n);
 }
 
@@ -159,8 +148,7 @@ for (let n = 1 ; n<=10 ; n++)
 //printing even numbers from 1 - 20
 
 console.log("The Even Numbers from 1 to 20 are=");
-for (let m = 2 ; m<=20 ; m+=2)
-{
+for (let m = 2; m <= 20; m += 2) {
     console.log(m);
 }
 
@@ -169,13 +157,12 @@ for (let m = 2 ; m<=20 ; m+=2)
 
 console.log("Sum of Numbers 1 to 5 are:");
 let sum = 0;
-for (let s = 1 ; s<=5 ; s++)
-{
+for (let s = 1; s <= 5; s++) {
     sum += s;
 }
 
 console.log(`Sum = ${sum}`); //Through backticks
-console.log('Sum =' , sum);  //Through comma
+console.log('Sum =', sum);  //Through comma
 console.log("Sum = " + sum); //Through +
 
 //example # 4
@@ -183,8 +170,7 @@ console.log("Sum = " + sum); //Through +
 
 console.log("The characters in the string are:");
 let str = 'Hey I am Lyba';
-for ( let i = 0 ; i<=str.length ; i++)
-{
+for (let i = 0; i <= str.length; i++) {
     console.log(str[i]);
 }
 
@@ -192,8 +178,7 @@ for ( let i = 0 ; i<=str.length ; i++)
 //Print numbers from 10 to 1 (reverse order)
 
 console.log("Numbers in reverse order are:");
-for (let r = 10 ; r>=1 ; r--)
-{
+for (let r = 10; r >= 1; r--) {
     console.log(r);
 }
 
@@ -201,9 +186,8 @@ for (let r = 10 ; r>=1 ; r--)
 //Create a multiplication table for 2
 
 console.log("The multiplication table for 2 is:");
-for (let t = 1 ; t<=10 ; t++)
-{
-    console.log(`2 x ${t} = ${2*t}`); //2 x 1 = 2
+for (let t = 1; t <= 10; t++) {
+    console.log(`2 x ${t} = ${2 * t}`); //2 x 1 = 2
 }
 
 //example # 7
@@ -211,8 +195,7 @@ for (let t = 1 ; t<=10 ; t++)
 
 console.log("The factorial of 5 is:");
 let factorial = 1;
-for ( let f = 1 ; f<=5 ; f++)
-{
+for (let f = 1; f <= 5; f++) {
     factorial *= f;    // (*=) - Factorial
     console.log(factorial);
 }
@@ -221,8 +204,7 @@ for ( let f = 1 ; f<=5 ; f++)
 //Print first 10 multiples of 3
 
 console.log("First Multiples of 3 are:");
-for ( let c = 1 ; c<=10 ; c++)
-{
+for (let c = 1; c <= 10; c++) {
     console.log(`${3 * c}`);
 }
 
@@ -233,10 +215,8 @@ for ( let c = 1 ; c<=10 ; c++)
 
 console.log("Numbers from 1 to 10, skipping multiples of 3 are :");
 
-for ( let p = 1 ; p<=10 ; p++)
-{
-    if ( p % 3 == 0)
-    {
+for (let p = 1; p <= 10; p++) {
+    if (p % 3 == 0) {
         continue;
     }
     console.log(p);
@@ -246,26 +226,22 @@ for ( let p = 1 ; p<=10 ; p++)
 //Print the squares of numbers from 1 to 5
 
 console.log("The Squares from numbers 1 to 5 are:");
-for ( let sq = 1 ; sq<=5 ; sq++ )
-{
-    console.log(`The Square of ${sq} is: ${sq*sq}`);
+for (let sq = 1; sq <= 5; sq++) {
+    console.log(`The Square of ${sq} is: ${sq * sq}`);
 }
 
 //example # 11
 //Print first 10 odd numbers
 
 console.log("The first ten odd numbers are:");
-for ( let o = 1 ; o<=20 ; o += 2)
-{
+for (let o = 1; o <= 20; o += 2) {
     console.log(o);
 }
 
 //OR
 
-for ( let odd = 1 ; odd<=20 ; odd++)
-{
-    if (odd % 2 == 0)
-    {
+for (let odd = 1; odd <= 20; odd++) {
+    if (odd % 2 == 0) {
         continue;
     }
     console.log(odd);
