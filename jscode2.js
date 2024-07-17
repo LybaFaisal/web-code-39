@@ -216,3 +216,12 @@ for ( let f = 1 ; f<=5 ; f++)
     factorial *= f;    // (*=) - Factorial
     console.log(factorial);
 }
+
+//example # 8
+//Print first 10 multiples of 3
+
+console.log("First Multiples of 3 are:");
+for ( let c = 1 ; c<=10 ; c++)
+{
+    console.log(`${3 * c}`);
+}
