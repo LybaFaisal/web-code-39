@@ -196,3 +196,12 @@ for (let r = 10 ; r>=1 ; r--)
 {
     console.log(r);
 }
+
+//example # 6
+//Create a multiplication table for 2
+
+console.log("The multiplication table for 2 is:");
+for (let t = 1 ; t<=10 ; t++)
+{
+    console.log(`2 x ${t} = ${2*t}`); //2 x 1 = 2
+}
