@@ -301,3 +301,17 @@ for (let odd_num = 1 ; odd_num <= 20 ;  odd_num += 2)
     sum_of_odd += odd_num;
 }
 console.log(`The sum of odd numbers is: ${sum_of_odd}`);
+
+//example # 17
+//Print numbers from 1 to 50, but stop if the number is 25
+
+console.log("The numbers from 1 to 50 but if 25 comes it'll stop!");
+for (let stop = 1 ; stop <= 50 ; stop++)
+{
+    if( stop == 25)
+    {
+        break;
+    }
+    console.log(stop);
+}
+console.log(`Hey I am 25, Stop the chain!`);
