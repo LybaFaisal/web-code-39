@@ -250,3 +250,23 @@ for ( let sq = 1 ; sq<=5 ; sq++ )
 {
     console.log(`The Square of ${sq} is: ${sq*sq}`);
 }
+
+//example # 11
+//Print first 10 odd numbers
+
+console.log("The first ten odd numbers are:");
+for ( let o = 1 ; o<=20 ; o += 2)
+{
+    console.log(o);
+}
+
+//OR
+
+for ( let odd = 1 ; odd<=20 ; odd++)
+{
+    if (odd % 2 == 0)
+    {
+        continue;
+    }
+    console.log(odd);
+}
