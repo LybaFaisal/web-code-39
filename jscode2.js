@@ -289,3 +289,15 @@ for (let l = 65 ; l <= 90 ; l++)   //65 is ASCII code for A & 90 ->Z
 {
     console.log(String.fromCharCode(l));
 }
+
+//97 is an Ascii code -> a :  112 -> z
+
+//example # 16
+//Calculate the sum of the first 10 odd numbers
+
+let sum_of_odd = 0;
+for (let odd_num = 1 ; odd_num <= 20 ;  odd_num += 2)
+{
+    sum_of_odd += odd_num;
+}
+console.log(`The sum of odd numbers is: ${sum_of_odd}`);
