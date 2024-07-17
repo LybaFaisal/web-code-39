@@ -246,3 +246,12 @@ for (let odd = 1; odd <= 20; odd++) {
     }
     console.log(odd);
 }
+
+//Print a pattern of stars (triangle)
+
+console.log("The pattern for stars are in triangle as:");
+let stars = '';
+for (let t = 1; t <= 5; t++) {
+    stars += '*';
+    console.log(stars);
+} 
