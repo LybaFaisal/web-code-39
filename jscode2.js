@@ -370,3 +370,15 @@ while (table <= 10)
     console.log(`13 x ${table} = ${13*table}`);
     table++;
 }
+
+//example # 2
+
+//Squaring of a number with while loop
+
+let square = 10;
+
+while (square <= 15)
+{
+    console.log(`The square of number ${square} is ${square*square}`);
+    square++;
+}
