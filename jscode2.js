@@ -382,3 +382,12 @@ while (square <= 15)
     console.log(`The square of number ${square} is ${square*square}`);
     square++;
 }
+
+//do-while loop
+
+let num = 1;
+do{
+    console.log(`Number : ${num}`);
+    num++;
+}
+while(num<=10);
