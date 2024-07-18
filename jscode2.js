@@ -315,3 +315,46 @@ for (let stop = 1 ; stop <= 50 ; stop++)
     console.log(stop);
 }
 console.log(`Hey I am 25, Stop the chain!`);
+
+//Switch Statement
+
+let student_marks = 95;
+
+switch(true)
+{
+    case (student_marks >= 90):
+    {
+        console.log(`You are passed with A grade!`);
+        break;
+    }
+
+    case (student_marks >= 80):
+    {
+        console.log(`You are passed with B grade`);
+        break;
+    }
+
+    case (student_marks >= 70):
+    {
+        console.log(`You are passed with C grade`);
+        break;
+    }
+
+    case (student_marks >= 60):
+    {
+        console.log(`You are passed with D grade`);
+        break;
+    }
+
+    case (student_marks >= 50):
+    {
+        console.log(`You are fail`);
+        break;
+    }
+
+    default:
+    {
+         console.log(`Invalid score!`);
+    }
+    
+}
