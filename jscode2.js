@@ -358,3 +358,15 @@ switch(true)
     }
     
 }
+
+//While Loop
+
+//Table through While loop
+
+let table = 1;
+
+while (table <= 10)
+{
+    console.log(`13 x ${table} = ${13*table}`);
+    table++;
+}
