@@ -435,3 +435,14 @@ do{
     j++;
 }
 while(j <= 10);
+
+//print the first ten odd numbers
+
+let odd_num = 0;
+let oddcount = 1;
+do{
+    console.log(oddcount);
+    oddcount += 2;
+    oddcount++;
+}
+while(odd_num <= 20)
