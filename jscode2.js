@@ -403,3 +403,12 @@ while (count_ <= 10)
     even_ =+ 2;
     count_++;
 }
+
+//While - loop - printing alphabets
+
+let char = 65;
+while (char <= 90)
+{
+    console.log(String.fromCharCode(char));
+    char ++ ;
+}
