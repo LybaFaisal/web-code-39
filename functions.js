@@ -15,3 +15,26 @@ function Myname(x) {
 //My name is undefined!
 // My name is Lyba .
 
+//Function as  a variable / Function by expression
+//syntax
+
+let y = 45 , z = 34;
+let sum = function(){
+    return y+z;  //calculations in functions and its stored in a variable;
+    //return is always value 1
+}
+console.log(sum(y,z));
+
+//example
+
+let std_name;
+let test = function(std_name){
+    if (typeof std_name !== 'undefined')
+    {
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
+console.log(test());
