@@ -426,3 +426,12 @@ while (number <= 20)
     console.log(number);
     number++;
 }
+
+//Using do-while loop : print numbers from 1 to 10
+
+let i = 1;
+do{
+    console.log(j);
+    j++;
+}
+while(j <= 10);
