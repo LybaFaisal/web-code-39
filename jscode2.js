@@ -391,3 +391,15 @@ do{
     num++;
 }
 while(num<=10);
+
+//Print the first 10 even numbers with While Loop
+
+let count_ = 0;
+let even_ = 0;
+
+while (count_ <= 10)
+{
+    console.log(even_);
+    even_ =+ 2;
+    count_++;
+}
