@@ -412,3 +412,17 @@ while (char <= 90)
     console.log(String.fromCharCode(char));
     char ++ ;
 }
+
+//Print numbers from 1 to 20, but skip multiples of 3
+
+let number = 1;
+while (number <= 20)
+{
+    if(number % 3 == 0)
+    {
+        continue;
+        number++;
+    }
+    console.log(number);
+    number++;
+}
