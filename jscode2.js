@@ -436,7 +436,7 @@ do{
 }
 while(j <= 10);
 
-//print the first ten odd numbers
+//print the first ten odd numbers using do - while
 
 let odd_num = 0;
 let oddcount = 1;
@@ -446,3 +446,32 @@ do{
     oddcount++;
 }
 while(odd_num <= 20)
+
+//Functions
+
+// function name()
+// {
+//     console.log(`Hello My name is Lyba!`);
+// }
+
+// for (let e = 1 ; e <= 50 ; e++)
+// {
+//     console.log(name());
+// }
+
+// function name(p)
+// {
+//     console.log(`Hello my name is ${p} .`);
+// }
+
+// for (let f = 1 ; f <= 50 ; f++)
+// {
+//     console.log(name(p));
+// }
+
+// if (p == name()){
+//     console.log(`Hello My name is ${p} .`);
+// }
+// else{
+//     console.log(`Hello my name is Lyba!`);
+// }
