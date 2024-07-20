@@ -38,3 +38,13 @@ let test = function(std_name){
     }
 }
 console.log(test());
+
+//Functions practice 2024
+
+//function to add 2 numbers
+
+let a, b;
+function addition(a,b){
+    return a + b ;
+}
+console.log(addition(3,5)); 
