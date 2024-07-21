@@ -63,3 +63,10 @@ function Multiplication(a,b){
     return a*b;
 }
 console.log(Multiplication(8,7));
+
+//Division
+
+function Division(a,b) {
+    return a/b;
+}
+console.log(Division(18,4));
