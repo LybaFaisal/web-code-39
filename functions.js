@@ -48,3 +48,11 @@ function addition(a,b){
     return a + b ;
 }
 console.log(addition(3,5)); 
+
+//Subtraction 
+
+function subtraction(a,b)
+{
+    return a-b;
+}
+console.log(subtraction(7,3));
