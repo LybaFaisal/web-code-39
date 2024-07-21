@@ -77,3 +77,11 @@ function even_num(num){
 }
 console.log(even_num(65));
 //Answer will be in boolean (true / false)
+
+//Function to Find the Length of a String
+
+let str;
+function string_length(str){
+    return str.length;
+}
+console.log(string_length('Lyba Faisal'));
