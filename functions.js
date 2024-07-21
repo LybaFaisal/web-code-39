@@ -68,3 +68,12 @@ function Division(a, b) {
     return a / b;
 }
 console.log(Division(18, 4));
+
+//Function to check if the number is even?
+
+let num;
+function even_num(num){
+    return num % 2 == 0;
+}
+console.log(even_num(65));
+//Answer will be in boolean (true / false)
