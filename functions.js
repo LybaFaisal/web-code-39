@@ -85,3 +85,12 @@ function string_length(str){
     return str.length;
 }
 console.log(string_length('Lyba Faisal'));
+
+//Function to find the maximum of three numbers
+
+let i, j, k;
+function maximum(i, j, k)
+{ 
+    return Math.max(i, j, k);  //built-in math.max
+}
+console.log(maximum(2,60,9));
