@@ -94,3 +94,12 @@ function maximum(i, j, k)
     return Math.max(i, j, k);  //built-in math.max
 }
 console.log(maximum(2,60,9));
+
+//Function to Check if a String Contains a Substring
+
+function contain_substring(str , Substring)
+{
+    return str.includes(Substring);                    //Built-in function .includes()
+}
+console.log(contain_substring('Lyba Faisal', 'Lyba')); //true
+console.log(contain_substring('Hello World', 'Lyba')); //false
