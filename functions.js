@@ -56,3 +56,10 @@ function subtraction(a,b)
     return a-b;
 }
 console.log(subtraction(7,3));
+
+//Multiplication
+
+function Multiplication(a,b){
+    return a*b;
+}
+console.log(Multiplication(8,7));
