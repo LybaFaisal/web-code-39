@@ -1,39 +1,38 @@
 let p = 'Lyba';
 function Myname(x) {
-    
- if (typeof x !== 'undefined'){
-    console.log(`My name is ${p} .`);
- }
- else{
-    console.log(`My name is undefined!`);
- }
-}
- Myname();
- Myname(p);
 
- //Output
+    if (typeof x !== 'undefined') {
+        console.log(`My name is ${p} .`);
+    }
+    else {
+        console.log(`My name is undefined!`);
+    }
+}
+Myname();
+Myname(p);
+
+//Output
 //My name is undefined!
 // My name is Lyba .
 
 //Function as  a variable / Function by expression
 //syntax
 
-let y = 45 , z = 34;
-let sum = function(){
-    return y+z;  //calculations in functions and its stored in a variable;
+let y = 45, z = 34;
+let sum = function () {
+    return y + z;  //calculations in functions and its stored in a variable;
     //return is always value 1
 }
-console.log(sum(y,z));
+console.log(sum(y, z));
 
 //example
 
 let std_name;
-let test = function(std_name){
-    if (typeof std_name !== 'undefined')
-    {
+let test = function (std_name) {
+    if (typeof std_name !== 'undefined') {
         return 1;
     }
-    else{
+    else {
         return 0;
     }
 }
@@ -44,29 +43,28 @@ console.log(test());
 //function to add 2 numbers
 
 let a, b;
-function addition(a,b){
-    return a + b ;
+function addition(a, b) {
+    return a + b;
 }
-console.log(addition(3,5)); 
+console.log(addition(3, 5));
 
 //Subtraction 
 
-function subtraction(a,b)
-{
-    return a-b;
+function subtraction(a, b) {
+    return a - b;
 }
-console.log(subtraction(7,3));
+console.log(subtraction(7, 3));
 
 //Multiplication
 
-function Multiplication(a,b){
-    return a*b;
+function Multiplication(a, b) {
+    return a * b;
 }
-console.log(Multiplication(8,7));
+console.log(Multiplication(8, 7));
 
 //Division
 
-function Division(a,b) {
-    return a/b;
+function Division(a, b) {
+    return a / b;
 }
-console.log(Division(18,4));
+console.log(Division(18, 4));
