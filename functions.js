@@ -16,7 +16,7 @@ Myname(p);
 // My name is Lyba .
 
 //Function as  a variable / Function by expression
-//syntax
+//syntax 
 
 let y = 45, z = 34;
 let sum = function () {
@@ -103,3 +103,12 @@ function contain_substring(str , Substring)
 }
 console.log(contain_substring('Lyba Faisal', 'Lyba')); //true
 console.log(contain_substring('Hello World', 'Lyba')); //false
+
+//Function as an expression
+
+let m ,l ;
+let sum1 = function(m,l){
+    return m+l;
+}
+let mySum = sum1(3,4);
+console.log(mySum);
