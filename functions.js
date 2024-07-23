@@ -139,3 +139,15 @@ for (let number1 = 1 ; number1 <= 20 ; number1++)
         console.log(`The ${number1} is odd!`);
     }
 }
+
+//Task # 3 assignment with function:
+
+let number_;
+
+function test_ (number_){
+    return number_ % 2 == 0;
+}
+
+console.log(test_(8));    //true = even
+console.log(test_(9));    //false = odd
+//Logical Operators provide answers in boolean.
