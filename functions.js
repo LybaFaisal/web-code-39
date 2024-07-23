@@ -151,3 +151,27 @@ function test_ (number_){
 console.log(test_(8));    //true = even
 console.log(test_(9));    //false = odd
 //Logical Operators provide answers in boolean.
+
+//OR
+
+let numm1, numm2, testt1, testt2, resultt1, resultt2;
+numm1 = 43;
+numm2 = 44;
+//calculation=>
+
+let cal = function(numm)  //formal parameters
+{
+    return numm % 2 == 0;
+}
+
+testt1 = cal(numm1);
+testt2 = cal(numm2);
+//Comparing=>
+
+resultt1 = testt1;
+resultt2 = testt2;
+//Display the result on console=>
+
+console.log(`Is ${numm1} an even number ${resultt1}.`);
+console.log(`Is ${numm2} an even number ${resultt2}.`);
+//numm1 and numm2 are actual parameters
