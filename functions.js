@@ -176,7 +176,7 @@ console.log(`Is ${numm1} an even number ${resultt1}.`);
 console.log(`Is ${numm2} an even number ${resultt2}.`);
 //numm1 and numm2 are actual parameters
 
-//Function to check the number +ve / -ve / zero
+//Function to check the number +ve / -ve / zero=>
 
 function check_num (numberr){
     if (numberr > 0){
@@ -192,3 +192,10 @@ function check_num (numberr){
 console.log(check_num(8));
 console.log(check_num(-9));
 console.log(check_num(0));
+
+//Function to calculate the area of the circle=>
+
+function Area_circle (radius){
+    return Math.PI * radius * radius;
+}
+console.log(Area_circle(7));  //radius is passed.
