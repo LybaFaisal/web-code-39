@@ -1,11 +1,11 @@
 let p = 'Lyba';
 function Myname(x) {
 
-    if (typeof x !== 'undefined') {
-        console.log(`My name is ${p} .`);
+    if (typeof x == 'undefined') {   //==  /   !==
+        console.log(`My name is undefined!`);
     }
     else {
-        console.log(`My name is undefined!`);
+        console.log(`My name is ${p}!`);
     }
 }
 Myname();
@@ -43,10 +43,10 @@ console.log(test());
 //function to add 2 numbers
 
 let a, b;
-function addition(a, b) {
+function addition(a, b) {    //function function_name () { definition }
     return a + b;
 }
-console.log(addition(3, 5));
+console.log(addition(3, 5));  //addition(4,4);
 
 //Subtraction 
 
@@ -112,3 +112,30 @@ let sum1 = function(m,l){
 }
 let mySum = sum1(3,4);
 console.log(mySum);
+
+//Task # 3 in assignment =>
+
+let num1 = 2;
+let num2 = 5;
+
+let test1 = num1 % 2;
+let test2 = num2 % 2;
+
+result1 = test1 == 0;
+result2 = test2 == 0;
+
+console.log(`Is ${num1} an even number? ${result1}`);
+console.log(`Is ${num2} an even number? ${result2}`);
+
+//Task with loop
+
+for (let number1 = 1 ; number1 <= 20 ; number1++)
+{
+    if(number1 % 2 == 0)
+    {
+        console.log(`The ${number1} is even!`);
+    }
+    else{
+        console.log(`The ${number1} is odd!`);
+    }
+}
