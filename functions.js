@@ -175,3 +175,20 @@ resultt2 = testt2;
 console.log(`Is ${numm1} an even number ${resultt1}.`);
 console.log(`Is ${numm2} an even number ${resultt2}.`);
 //numm1 and numm2 are actual parameters
+
+//Function to check the number +ve / -ve / zero
+
+function check_num (numberr){
+    if (numberr > 0){
+        return "Positive";
+    }
+    else if (numberr < 0){
+        return "Negative";
+    }
+    else{
+        return "Zero"
+    }
+}
+console.log(check_num(8));
+console.log(check_num(-9));
+console.log(check_num(0));
