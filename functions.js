@@ -199,3 +199,10 @@ function Area_circle (radius){
     return Math.PI * radius * radius;
 }
 console.log(Area_circle(7));  //radius is passed.
+
+//Function to convert minutes to seconds
+
+function min_to_sec (minutes){
+    return  minutes * 60;
+}
+console.log(min_to_sec(78));
