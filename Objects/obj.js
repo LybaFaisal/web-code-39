@@ -16,3 +16,18 @@ let cake = {
 cake.layers = 3;
 
 console.log(cake);
+
+//Modifying Object Properties
+
+let book = {
+    Book_title: 'Jannat k Pattay',
+    Book_pages: 1470,
+    Book_Author: 'Nemrah Ahmad',
+    Book_year : 2000
+};
+
+//modifying:
+
+book.Book_year = 2002;
+
+console.log(book);
