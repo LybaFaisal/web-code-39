@@ -31,3 +31,21 @@ let book = {
 book.Book_year = 2002;
 
 console.log(book);
+
+//Assignment-2024
+
+//Example # 1
+
+
+//Objects Properties & Methods
+let car = {
+    make : 1990,
+    model: 'BMW',
+    year: 2012,
+    color: 'Black',
+    getinfo: function(){
+        return `${this.make} ${this.model} ${this.year} ${this.color}`
+    }
+};
+
+console.log(car.getinfo());
